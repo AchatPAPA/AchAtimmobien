@@ -1,0 +1,4 @@
+function supprimerPublication() {
+    // Logique de suppression de publication
+    alert('Publication supprimée avec succès !');
+}

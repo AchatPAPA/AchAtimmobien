@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agence Immobilière</title>
+</head>
+<body>
+    <header>
+        <h1>Agence Immobilière</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#vente">Vente</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#communication">Communication</a></li>
+        </ul>
+    </nav>
+
+    <section id="vente" class="section-vente">
+        <h2 class="couleur-vente">Vente de Terrains et Maisons</h2>
+        <!-- Contenu pour la vente -->
+        <!-- Ajoutez ici les annonces, les formulaires, etc. -->
+    </section>
+
+    <section id="location" class="section-location">
+        <h2 class="couleur-location">Location de Maisons, Terrains et Appartements</h2>
+        <!-- Contenu pour la location -->
+        <!-- Ajoutez ici les annonces, les formulaires, etc. -->
+    </section>
+
+    <section id="communication" class="section-communication couleur-communication">
+        <h2>Communication</h2>
+        <p>Contactez-nous au : <a href="tel:+22899647166">+228 9964 7166</a> (Téléphone) | <a href="https://wa.me/22899647166">WhatsApp</a></p>
+
+        <!-- Exemple de bouton pour la suppression de publication -->
+        <button id="boutonSupprimer" onclick="supprimerPublication()">Supprimer la publication</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Agence Immobilière</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
